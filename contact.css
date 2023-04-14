@@ -1,0 +1,149 @@
+@font-face {
+    font-family: myFont;
+    src: url(orange\ juice\ 2.0.ttf);
+  }
+  @font-face {
+    font-family: textFont;
+    src: url(antipasto.regular.ttf);
+}
+    
+  body {
+    
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  a:visited { 
+    text-decoration: none; 
+    color: #EDF1D6; 
+   }
+  /* Form */
+  
+  .form {
+    width: 340px;
+    height: auto;
+    background: #EDF1D6;
+    border-radius: 8px;
+    box-shadow: 0 0 20px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: textfont;
+    position: relative;
+  }
+  
+ h1{
+    color: #333333
+ }
+  h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #40513B;
+    border-bottom: 3px solid #EDF1D6;
+  }
+  
+  label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family:textFont;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-bottom: 2px solid #78788c;
+  }
+  
+  p {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .required {
+    color: red;
+    position: absolute;
+    top: -3px;
+    left: -15px;
+  }
+  
+  button {
+    float: right;
+    padding: 8px 12px;
+  }
+  /* Navigation Bar */
+nav {
+    background-color: #333333;
+    color: bisque;
+    padding: 10px;
+    display: flex; /* Add display:flex to enable flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .logo {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 20px; /* Add margin to separate from the text */
+  }
+    
+  nav ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Add display:flex to enable flexbox */
+    align-items: center; /* Center vertically */
+  }
+    
+  nav ul li {
+    list-style: none; /* Remove default bullet point */
+    margin-right: 20px;
+    text-align: center;
+    
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #EDF1D6;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: myFont;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  /* Footer */
+  
+  footer {
+    padding: 4px;
+    background-color: #333333;
+    text-align: center;
+    color: #EDF1D6;
+    text-decoration: none;
+  }
+
+ 
+ /* logo margin */
+  nav ul li.logo {
+    display: inline-block;
+    margin-right: 740px; 
+  }
+  
+  
+  

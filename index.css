@@ -1,0 +1,211 @@
+@font-face{
+    font-family: myFont;
+    src:url(orange\ juice\ 2.0.ttf)
+}
+  @font-face {
+      font-family: textFont;
+      src: url(antipasto.regular.ttf);
+  }
+@font-face {
+    font-family: textFontLight;
+    src: url(antipasto.extralight.ttf);
+}
+
+/* Typography */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: myFont;
+  font-size: 70px;
+  text-align: center;
+  padding: 0;
+  color: #333333;
+  
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: textFont;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  padding: 10px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333333;
+  color: bisque;
+  padding: 10px;
+  display: flex; /* Add display:flex to enable flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+.logo {
+  height: 40px; /* Adjust the height of the logo as needed */
+  margin-right: 20px; /* Add margin to separate from the text */
+}
+  
+nav ul {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Add display:flex to enable flexbox */
+  align-items: center; /* Center vertically */
+}
+  
+nav ul li {
+  list-style: none; /* Remove default bullet point */
+  margin-right: 20px;
+  text-align: center;
+  
+  
+}
+a:visited { 
+  text-decoration: none; 
+  color: #EDF1D6; 
+ }
+  
+nav ul li a:hover {
+  color: #9DC08B;
+}
+
+
+/* Main Content */
+.hero-image {
+  background-image: url(landingpage.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image h2 {
+  font-size: 3em;
+  color: #632323;
+  text-shadow: 2px 2px 5px #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bullet-points {
+  margin-top: 30px;
+}
+
+.bullet-points li {
+  margin-bottom: auto;
+}
+
+body {
+  background-color: #EDF1D6;
+}
+
+footer {
+  padding: 4px;
+  background-color: #333333;
+  text-align: center;
+  color: #EDF1D6;
+  text-decoration: none;
+}
+
+ul li image {
+  height: 50px;
+  width: 50px;
+}
+
+/* Box Model */
+* {
+  box-sizing: border-x;
+}
+
+/* Layout */
+body {
+  margin: 0;
+  min-block-size: 100vh;
+  padding: 5vmin;
+}
+
+/* Images */
+img {
+  block-size: auto;
+  max-inline-size: 100%;
+  vertical-align: middle;
+}
+
+/* Embed */
+.embed {
+  overflow: hidden;
+  padding-block-start: 100%;
+  position: relative;
+}
+
+.embed--1-2 {
+  padding-top: calc(100% / (1 / 2));
+}
+
+.embed--2-1 {
+  padding-top: calc(100% / (2 / 1));
+}
+
+.embed--2-3 {
+  padding-top: calc(100% / (2 / 3));
+}
+
+.embed > * {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  padding: 0.25em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.gallery__item--h-2 {
+  grid-column-end: span 2;
+}
+
+.gallery__item--h-3 {
+  grid-column-end: span 3;
+}
+
+.gallery__item--v-2 {
+  grid-row-end: span 2;
+}
+
+.gallery__item--v-3 {
+  grid-row-end: span 3;
+}
+

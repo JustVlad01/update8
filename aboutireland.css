@@ -1,0 +1,136 @@
+/* Fonts */
+@font-face {
+    font-family: myFont;
+    src: url(orange\ juice\ 2.0.ttf);
+  }
+  
+  @font-face {
+    font-family: textFont;
+    src: url(antipasto.regular.ttf);
+  }
+  
+  /* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #EDF1D6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: myFont;
+    font-size: 40px;
+  }
+  
+  h2, h4 {
+    font-family: textFont;
+    font-size: 30px;
+  }
+  
+  h3, h5 {
+    font-family: textFont;
+    font-size: 30px;
+    text-align: right;
+  }
+  
+  h6 {
+    font-family: textFont;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h6{
+    text-align: left;
+  }
+  
+ /* Navigation Bar */
+nav {
+    background-color: #333333;
+    color: bisque;
+    padding: 10px;
+    display: flex; /* Add display:flex to enable flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .logo {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 20px; /* Add margin to separate from the text */
+  }
+    
+  nav ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Add display:flex to enable flexbox */
+    align-items: center; /* Center vertically */
+  }
+    
+  nav ul li {
+    list-style: none; /* Remove default bullet point */
+    margin-right: 20px;
+    text-align: center;
+    
+  }
+  a:visited { 
+    text-decoration: none; 
+    color: #EDF1D6; 
+   }
+  
+  /* Page Styles */
+  header {
+    background-color: #EDF1D6;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  
+  .intro {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .image {
+    max-width: 700px;
+    margin: auto;
+    border-radius: 20%;
+  }
+  
+  .image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 20%;
+  }
+  
+  .image-row img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 15%;
+  }
+  
+  .image-text {
+    text-align: center;
+  }
+
+  footer {
+    padding: 4px;
+    background-color: #333333;
+    text-align: center;
+    color: #EDF1D6;
+    text-decoration: none;
+  }
+ 
+  
+  
+ 
+  
